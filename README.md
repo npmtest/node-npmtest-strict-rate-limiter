@@ -1,6 +1,6 @@
 # npmtest-strict-rate-limiter
 
-#### test coverage for  [strict-rate-limiter (v0.2.0)](https://github.com/getc/strict-rate-limiter)  [![npm package](https://img.shields.io/npm/v/npmtest-strict-rate-limiter.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-strict-rate-limiter) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-strict-rate-limiter.svg)](https://travis-ci.org/npmtest/node-npmtest-strict-rate-limiter)
+#### basic test coverage for  [strict-rate-limiter (v0.2.0)](https://github.com/getc/strict-rate-limiter)  [![npm package](https://img.shields.io/npm/v/npmtest-strict-rate-limiter.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-strict-rate-limiter) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-strict-rate-limiter.svg)](https://travis-ci.org/npmtest/node-npmtest-strict-rate-limiter)
 
 #### Rate limiter backed by redis with strict concurrency rules for scalable applications
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-strict-rate-limiter/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-strict-rate-limiter/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-strict-rate-limiter/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-strict-rate-limiter/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-strict-rate-limiter/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-strict-rate-limiter/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-strict-rate-limiter/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-strict-rate-limiter/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-strict-rate-limiter/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-strict-rate-limiter/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-strict-rate-limiter/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-strict-rate-limiter/build/coverage.html/index.html)
 
@@ -73,7 +73,8 @@
     "scripts": {
         "test": "jshint && jasmine-node spec --verbose --captureExceptions --forceexit"
     },
-    "version": "0.2.0"
+    "version": "0.2.0",
+    "bin": {}
 }
 ```
 
